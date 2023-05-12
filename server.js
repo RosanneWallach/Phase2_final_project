@@ -1,6 +1,6 @@
 import express from "express";
 import passport from "passport";
-import recipeRouter from "./routes/recipe.js";
+import recipeRouter from "./routes/recipes.js";
 import authRouter from "./routes/auth.js";
 import setupJWTStrategy from "./auth/index.js";
 
